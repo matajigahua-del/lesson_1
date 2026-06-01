@@ -85,6 +85,9 @@ print (Str[3])
 
 
 
+
+
+
 #A1
 # 1) Store an integer value in `a`.
 # 2) Print the datatype of `a` using `type()`.
@@ -118,3 +121,36 @@ print (Str[3])
 # 3) Replace `text` with the reversed string (set `text` equal to `revText`).
 # 4) Print a message saying you are showing the reversed string.
 # 5) Print the reversed string stored in `text`.
+
+
+#Git commands: 
+#1 git add . - to add the changes
+#2 git commit -m "message"` - to commit the changes with a message.
+#3 git push origin main - to push the changes to the main branch
+
+# L3 A1
+a=10
+print(type(a))
+b=3.67
+print(type(b))
+c="python"
+print(type(c))
+d=True
+print(type(d))
+
+# L3 A2
+name="Kashvee"
+age=14
+is_student=True
+weight=45.5
+print(name)
+print(type(name))
+print(age)
+print(type(age))
+print(is_student)
+print(type(is_student))
+print(weight)
+print(type(weight))
+
+
+#
