@@ -27,5 +27,13 @@
 # 7) Print the number of 100-rupee notes, 50-rupee notes, and 10-rupee notes.
 
 #Activity:
+
 Amount=int(input("Enter the total withdrawal Amount:"))
-note_1=Amount/100
+note_1=Amount//100
+remainder_1=Amount%100
+note_2=remainder_1//50
+remainder_2=remainder_1%50
+note_3=remainder_2//10
+print("Number of 100 ruppee notes:", note_1)
+print("Number of 50 ruppee notes:", note_2)
+print("Number of 10 ruppee notes:", note_3)
