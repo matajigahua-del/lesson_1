@@ -17,3 +17,4 @@ print("play with your friends outside")
 print("have dinner with your family")
 #step 9:sleep
 print("Go to sleep")
+
