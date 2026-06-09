@@ -76,3 +76,63 @@
 # - Else if BMI is 39.9 or less → print "obese"
 
 # - Else → print "severely obese"
+
+#A1
+a = True
+b = True
+c = True
+if a and b and c:
+    print("All true")
+else:
+    print("at least one is false")
+    a=89
+    b=65
+    c=-45
+    if a>0 or b>0:
+        print("either is greater than 0")
+    else:
+        print("no number is greater than 0")
+    if b>0 or c>0:
+        print("either of them is greater than 0")
+    else:
+        print("no number is greater than 0")
+
+#A2
+a=67
+b=89
+if a!=b:
+    print("true")
+else:
+    print("False")
+    a="Hello"
+    b="World"
+    if a!=b:
+        print("They are different")
+        a=2
+        b=5
+        if (a==1) != (b==5):
+            print("Hello")
+            a=int(input("Enter an integer:"))
+            if a%2!=0:
+                print(a,"is not an even number, it is odd.")
+
+#A3
+height=int(input("Enter your height in cm:"))
+weight=int(input("Enter your weight in kg:"))
+BMI=weight/((height/100)**2)
+print("Your BMI is:", BMI)
+if BMI<=18.4:
+    print("underweight")
+elif BMI<=24.9:
+    print("healthy")
+elif BMI<=29.9:
+    print("over weight")
+elif BMI<=34.9:
+    print("severely over weight")
+elif BMI<=39.9:
+    print("obese")
+else:
+    print("severely obese")
+
+
+    
