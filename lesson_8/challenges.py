@@ -65,9 +65,6 @@ else:
      #1) Store the given values:
 
 # `mean1` (imaginary mean), `wrong_number`, `correct_number`, and `total_number`.
-
-# a=sum/quantity; a=10,quantity=5 and sum=?
-
 # 2) Calculate the total sum using the wrong mean:
 
 # - Multiply `mean1` by `total_number`
@@ -121,3 +118,38 @@ else:
 # - Else if `avg` is greater than only `c`, print that it is just higher than `c`.
 
 # 4) If none of the above conditions match, print "invalid input".
+
+#A3
+mean_1=10
+wrong_number=5
+correct_number=8
+total_number=5
+sum=mean_1*total_number
+print("The sum is:",sum)
+num2=sum-wrong_number+correct_number
+print("The corrected sum is",num2)
+mean_2=num2/total_number
+print("The corrected mean is:",mean_2)
+
+#A4
+a=int(input("Enter a  number"))
+b=int(input("Enter a number"))
+c=int(input("Enter a number"))
+avg=(a+b+c)/3
+print("The average is:",avg)
+if avg>a and avg>b and avg>c:
+    print("The average is higher than a,b and c:")
+elif avg>a and avg>b:
+    print("The average is higher than a and b")
+elif avg>b and avg>c:
+    print("The average is higher than b and c")
+elif avg>c and avg>a:
+    print("The average is higher than c and a ")
+elif avg>a:
+    print("It is higher than a")
+elif avg>b:
+    print("It is higher than b")
+elif avg>c:
+    print("It is higher than c")
+else:
+    print("Invalid input")
