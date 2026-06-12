@@ -86,11 +86,57 @@
 
 
 #A2
-units=int(input("enter the number of units consumed: "))
-if units<50:
-    amount=units*2.60
-    surcharge=25
+# units=int(input("enter the number of units consumed: "))
+# if units<50:
+#     amount=units*2.60
+#     surcharge=25
 
-elif units<100:
-    amount=(50*2.60)+(units-50)*3.25
+# elif units<100:
+#     amount=(50*2.60)+(units-50)*3.25
+#     surcharge=35
+# elif units<200:
+#     amount=(50*2.60)+(50*3.25)+(units-100)*5.26
+#     surcharge=45
+# else:
+#     amount=(50*2.60)+(50*3.25)+(100*5.26)+(units-200)*8.45
+#     surcharge=75
     
+# total=amount +surcharge
+# print("Electricity bill: %.2f" %(total))
+
+# #     #A3
+print("Select a ride:")
+print("1. Bike")
+print("2. Car")
+choice=(input("Enter your choice:")).lower()
+if choice=="bike":
+        print("scooty")
+        print("scooter")
+        choice2=input("Enter your ride choice").lower()
+        if choice2=="scooty":
+            print("You have selected scooty")
+        else:
+            print("You have selected scooter")
+
+elif choice=="car":
+         print("Sedan")
+         print("XUV")
+         choice3=input("Enter your choice").lower()
+         if choice3=="sedan":
+                print("You have selected sedan")
+         else:
+             print("You have selected XUV")
+else:
+        print("Wrong choice!")
+    
+    # # #A1
+# medical_cause=input("Did you have a meducal cause? (Y/N):") .upper()
+# if medical_cause=='Y':
+#         print("Student is allowed to give the exam")
+# else:
+#         atten=int(input("Enter you attendance percentage"))
+# if atten>=75:
+#         print("Allowed")
+# else:
+#         print("Not allowed")
+

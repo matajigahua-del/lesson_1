@@ -79,7 +79,7 @@ Str="string"
 
 print(Str[3:1]) 
 print (Str[0:1])
-print (Str[-1])
+print (Str[::-1]) #str[start:stop:step]
 print (Str[3])
 
 
@@ -120,7 +120,7 @@ print (Str[3])
 #    (Reversing means the last character becomes first, and the first becomes last.)
 # 3) Replace `text` with the reversed string (set `text` equal to `revText`).
 # 4) Print a message saying you are showing the reversed string.
-# 5) Print the reversed string stored in `text`.
+# 5) Print the reversed string stored in `text`.  revText=text[::-1]
 
 
 #Git commands: 
