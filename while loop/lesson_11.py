@@ -22,21 +22,21 @@
 #A1
 #Write a program to find the sum of natural numbers and ask the user to enter the number.
 
-num=int(input("Enter a number"))
-i=1
-sum=0 #>8 1+2+3+4=10 10<8 True 1+2+3+4
-sum1=0
-while i<num:  #i=1 1<2
+# num=int(input("Enter a number"))
+# i=1
+# sum=0 #>8 1+2+3+4=10 10<8 True 1+2+3+4
+# sum1=0
+# while i<num:  #i=1 1<2
 
-    sum1=sum
-    sum+=i #1
+#     sum1=sum
+#     sum+=i #1
 
-    if(sum>8): #1<8
-        print("Last value of sum ",sum1)    
-        break
+#     if(sum>8): #1<8
+#         print("Last value of sum ",sum1)    
+#         break
 
-    i+=1
-# print("sum ",sum)  #10
+#     i+=1
+# # print("sum ",sum)  #10
 
 
 
@@ -54,7 +54,7 @@ while i<num:  #i=1 1<2
 #    So the loop never stops (infinite loop).
 
 
-#Armstrong number are those numbers that is equal to hte sum of its own digits, each raised by the power of the number of digits.
+#Armstrong number are those numbers that is equal to the sum of its own digits, each raised by the power of the number of digits.
 
 #153 digits=3 1**3+5**3+3**3=153
 # 370 digits=3 3**3+7**3+0**3=370
@@ -76,3 +76,21 @@ while i<num:  #i=1 1<2
 # 5) After the loop, compare `num` and `sum`:
 #    - If they are the same, print: `num` is an Armstrong number.
 #    - Otherwise, print: `num` is not an Armstrong number.
+
+#A2
+# i=0
+# while i<=0:
+#     print("I WILL RUN FOREVER")
+
+# #A3
+num=int(input("Enter a number"))
+sum=0
+temp=num
+while temp>0:
+    digit=temp % 10
+    sum+=digit**3 
+    temp//=10
+if num==sum:
+        print("num is an armstrong number")
+else:
+        print("num is not an armstrong number")
