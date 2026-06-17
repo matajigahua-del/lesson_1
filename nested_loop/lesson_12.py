@@ -36,10 +36,10 @@
 
 # Example for inside for:
 
-for row in range(1,5): #outer loop iterates from 1 to 4 
-    for col in range(1,11): #inner loop iterates fro 1 to 10
-        print(col, end=" ") 
-    print()
+# for row in range(1,5): #outer loop iterates from 1 to 4 
+#     for col in range(1,11): #inner loop iterates fro 1 to 10
+#         print(col, end=" ") 
+#     print()
 
 # Output
 # 12345678910
@@ -118,3 +118,30 @@ for row in range(1,5): #outer loop iterates from 1 to 4
 
 # 8) Print the product in the required format:
 #    "Product of Mid digits (midOne * midTwo) = prod"
+
+
+# #A2
+# lower= int(input("Enter lower range"))
+# upper=int(input("Enter upper range"))
+# print(f"checking for primes from{lower}to{upper}")
+# for num in range(lower,upper+1):
+#     if num>1:
+#         is_prime=True
+#         for i in range(2,num):
+#             if num%i==0:
+#                 is_prime=False
+#                 break 
+#             if is_prime:
+#                 print("prime")
+
+
+# #A1
+# str=input("Enter a word")
+# char=input("Enter only single character")
+# i=0
+# count=0
+# while i<len(str):
+#    if str[i]==char:
+#     count+=1
+#     i+=1
+#     print(f"The character {char} occurred {count} times in {str}")
