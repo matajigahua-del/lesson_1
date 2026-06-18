@@ -15,15 +15,26 @@
 
 # Answer 1: 
 # *
-# * *
+# * *  
 # * * *
 # * * * *
 
 # A pair of father and son, both are working in a single field.
 
 #A1
-rows=4
-for i in range(rows):
-    for j in range(i+1):
-        print("*",end=" ")
-    print()
+# rows=4
+# for i in range(rows):
+#     for j in range(i+1):
+#         print("*",end=" ")
+#     print()
+
+# #A2
+rows=int(input("Enter the number of rows"))
+num=1
+print("Floyd's Triangle")
+for i in range(1,rows+1):
+    for j in range(1,i+1):
+        print("*"," ")
+        num+=1
+        print()
+

@@ -13,7 +13,7 @@
 # print(12*45,"This is the product of of 12 and 45")
 # print(25/5,"This the quotient of 25 and 5")
 
-#Indentifers in python- An Identifer is a name used to identify a variable,function,class,module etc., so it can be alphabet, a combination og alphabet, underscore and  digit.
+#Indentifers in python- An Identifer is a name used to identify a variable,function,class,module etc., so it can be alphabet, a combination of alphabet, underscore and  digit.
 # Rules for naming an identifier in python
 #1. An identifier can only contain letters, digits and underscores. example: myname, name_1 and name_is
 # 2 An identifier cannot start with a digit. example: 1name, 2name and 3name are invalid identifiers, but class1.
@@ -36,7 +36,7 @@
 
 #Self-introdduction in Python
 # name="Kashvee"
-# print("My name is",name)
+# print("My name is",name) or print(f"My name is{name})
 # grade="9th grade"
 # print("I am in grade",grade)
 # school="Sun Valley International School"

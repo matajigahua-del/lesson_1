@@ -130,7 +130,7 @@ else:
         print("Wrong choice!")
     
     # # #A1
-# medical_cause=input("Did you have a meducal cause? (Y/N):") .upper()
+# medical_cause=input("Did you have a medical cause? (Y/N):") .upper()
 # if medical_cause=='Y':
 #         print("Student is allowed to give the exam")
 # else:

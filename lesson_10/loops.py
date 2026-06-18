@@ -97,23 +97,27 @@
 #     sum+=i
 #     print(f"The sum of numbers from 1 to n is: {sum}")
 
-str="python"
-bag=""
-for i in str:
-    bag+=i
-print(bag)
+# str="python"
+# bag=""
+# for i in str:
+#     bag+=i
+# print(bag)
 
-#A2
-string=input("Enter a word or a senrence")
-string2=""
-for i in string:
-    string2=i+string2
-    print(string2)
-    print(string)
+# #A2
+# string=input("Enter a word or a senrence")
+# string2=""
+# for i in string:
+#     string2=i+string2
+#     print(string2)
+#     print(string)
 
-    #A3
-    n=int(input("Enter a number graeter than 1:"))
-    print(f"Displaying numbers from {n}down to 1:")
-    for i in range(n,0,-1):
-        print(i)
-        
+#     #A3
+# n=int(input("Enter a number graeter than 1:"))
+# print(f"Displaying numbers from {n}down to 1:")
+# for i in range(n,0,-1):
+#         print(i)
+
+
+n=int(input("Enter a number greater than 1"))
+for i in range(1,n+1,1):  
+   print(i)     

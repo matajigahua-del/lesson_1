@@ -22,7 +22,7 @@
 #A1
 #Write a program to find the sum of natural numbers and ask the user to enter the number.
 
-# num=int(input("Enter a number"))
+# num=int(input("Enter a number"))           
 # i=1
 # sum=0 #>8 1+2+3+4=10 10<8 True 1+2+3+4
 # sum1=0
@@ -83,14 +83,24 @@
 #     print("I WILL RUN FOREVER")
 
 # #A3
+# num=int(input("Enter a number"))
+# sum=0
+# temp=num
+# while temp>0:
+#     digit=temp % 10
+#     sum+=digit**3 
+#     temp//=10
+# if num==sum:
+#         print("num is an armstrong number")
+# else:
+#         print("num is not an armstrong number")
+
+        #A4
 num=int(input("Enter a number"))
+i=1
 sum=0
-temp=num
-while temp>0:
-    digit=temp % 10
-    sum+=digit**3 
-    temp//=10
-if num==sum:
-        print("num is an armstrong number")
-else:
-        print("num is not an armstrong number")
+while i<=num:
+        sum+=i
+        i+=1
+print(sum)
+
