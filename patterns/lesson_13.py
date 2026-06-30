@@ -29,12 +29,26 @@
 #     print()
 
 # #A2
-rows=int(input("Enter the number of rows"))
-num=1
-print("Floyd's Triangle")
-for i in range(1,rows+1):
-    for j in range(1,i+1):
-        print("*"," ")
-        num+=1
-        print()
+# rows=int(input("Enter the number of rows:"))
+# number=1
+# print("Floyd's Triangle:")
+# for i in range(1,rows+1):
+#     for j in range(1,i+1): 
+#         print(number, end=" ")
+#         number+=1
+#     print()
+
+
+
+# Example for dry run:
+
+# for i in range(1,10,2): #i=1, i<10 True , # i=3, 3<10 True 
+#     print(i)
+
+# Output
+# 1
+# 3
+# 5
+# 7
+# 9
 
