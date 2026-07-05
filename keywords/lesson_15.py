@@ -135,10 +135,10 @@
 #     print(i)
 
 # #A4
-# bill_amount=int(input("Enter the amunt of bill"))
-# bill_paid=int(input("Enter the amount paid by the customer"))
-# due_amount=bill_amount-bill_paid
-# if due_amount>0:
-#     print("The customer still ows the due amount")
-# else:
-#     print("The customer has paid all the amount")
+bill_amount=int(input("Enter the amount of bill - "))
+bill_paid=int(input("Enter the amount paid by the customer - "))
+due_amount=bill_amount-bill_paid
+if due_amount>0:
+    print("The customer still owes the due amount")
+else:
+    print("The customer has paid all the amount")
