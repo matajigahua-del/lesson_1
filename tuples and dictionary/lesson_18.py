@@ -87,15 +87,15 @@
 # print("Printing the updated dictionary: ",square)
 
 # Iterate through a dictionary:
-# square={1:1,2:4,3:9,4:16,5:25}
-# for i in square:
-#     print(square[i])
+square={1:1,2:4,3:9,4:16,5:25}
+for i in square:
+    print(square[i])
 
 
 # tuple1=(1,5,6,7,[8])
 # tuple1[4][-1]=95
 # print(tuple1[4])
-# print(dic_1)
+# # print(dic_1)
 
 # dic_1={"Name":"Lex","Age":7,"Gender":"male"}
 # dic_1["Gender"]="female"
