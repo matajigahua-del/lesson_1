@@ -4,8 +4,8 @@
 
 # Str="String"
 # Operations: Indexing, Slicing, Changing a Tuple, Concatenation of a Tuple,  Nested Tuple.
-# Indexing : To acess a element using its position or index.
-# Example:
+# # Indexing : To acess a element using its position or index.
+# # Example:
 
 # li=[1,25,17,258,45] #starting:0, ending:length
 
@@ -13,11 +13,11 @@
 #     print(i)
 
 # Example for indexing: 
-# number_tuple=(5,7,8,95,140)
-# print("Element at index 3: ",number_tuple[3])
+number_tuple=(5,7,8,95,140)
+print("Element at index 3: ",number_tuple[3])
 
-# for i in range(5):
-#     print(number_tuple[i])
+for i in range(5):
+    print(number_tuple[i])
 
 # Example for slicing: 
 # tuple1=('P','Y','T','H','O','N')
@@ -28,10 +28,10 @@
 
 #Example of changing:
 
-# tuple1= (1,2,3,54,[1,5,7,8],75)
-# tuple1[4][2]=95
+tuple1= (1,2,3,54,[1,5,7,8],75)
+tuple1[4][2]=95
 
-# print(tuple1[4])
+print(tuple1[4])
 
 # Example of Concatenation:
 
@@ -84,12 +84,12 @@
 # square[6]=36
 # print("Using the popitem to remove any item: ",square.popitem()) #5:25
 
-# print("Printing the updated dictionary: ",square)
+# # print("Printing the updated dictionary: ",square)
 
-# Iterate through a dictionary:
-square={1:1,2:4,3:9,4:16,5:25}
-for i in square:
-    print(square[i])
+# # Iterate through a dictionary:
+# square={1:1,2:4,3:9,4:16,5:25}
+# for i in square:
+#     print(square[i])
 
 
 # tuple1=(1,5,6,7,[8])
