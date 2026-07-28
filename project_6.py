@@ -1,0 +1,23 @@
+import array as arr
+snack_box1={"chips","juice","cookies"}
+snack_box2={"candy","juice","gummy bears"}
+print("Snack Box 1:", snack_box1)
+print("Snack Box 2:", snack_box2)
+snack_box1.add("Kurkure")
+print("Snack Box 1 after adding Kurkure:", snack_box1)
+common_snacks=snack_box1.intersection(snack_box2)
+snack_counts=arr.array('i', [4, 2, 3, 1])
+print("snack_counts array:", snack_counts)
+snack_counts.insert(0,2)
+snack_counts.append(7)
+print("snack_counts after inserting 2 at index 0 and appending 7:", snack_counts)
+count_of_5=snack_counts.count(5)
+print("Count of 5 in snack_counts:", count_of_5)
+snack_counts.reverse()
+print("snack_counts after reversing:", snack_counts)
+print(" ")
+print("SCHOOL SNACK COUNTERRRR!!!")
+print("snack_box1:", snack_box1)
+print("snack_box2:", snack_box2)
+print("Common snackes",common_snacks)
+print("snack_counts",snack_counts)
