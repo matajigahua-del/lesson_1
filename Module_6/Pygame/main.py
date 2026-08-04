@@ -8,7 +8,7 @@ import pygame
 # pygame.display.flip(): It used to make changes to the game screen so that they are visible.
 
 pygame.init()
-screen_height,screen_width=500,500
+screen_height,screen_width=500,500   
 screen=pygame.display.set_mode((screen_height,screen_width))
 
 imae=pygame.transform.scale(pygame.image.load('67676776.webp').convert_alpha(),(200,200))
@@ -25,7 +25,7 @@ def game_loop():
         pygame.display.flip()
     pygame.quit()
 
-if __name__ == '__main__':
+if __name__ == '__main__': 
     game_loop()
 
 
