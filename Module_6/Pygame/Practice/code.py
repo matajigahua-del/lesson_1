@@ -23,4 +23,4 @@ def game_loop():
 
 if __name__ == '__main__': 
     game_loop()
-'Crimson':pygame.Colour('Crimson')
+'crimson'pygame.Color('crimson')
